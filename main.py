@@ -17,8 +17,8 @@ def fetch_user_details(username, access_token):
         return None
 
 # Example usage
-access_token = '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'
-username = 'iamrudhresh'
+access_token = ''
+username = ''
 user_details = fetch_user_details(username, access_token)
 if user_details:
     print(user_details)
